@@ -31,7 +31,7 @@ function handleClick(){
     document.getElementById("chancesLeft").innerHTML = "Chances Left : "+count; 
     if(count==0){
         document.getElementById("chancesLeft").innerHTML = "Game Over! 🐒🐒"; 
-        alert('දැන් බුදියගනින්!');
+        alert('එච්චරයි!');
     }
 }
 }
