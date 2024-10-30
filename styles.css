@@ -10,11 +10,18 @@ margin-top: 7%;
     position: relative;
     left: 40%;
     top: 7%;
-    background-color: antiquewhite;
+    background-color:lightsteelblue;
 }
 .btnGuess{
     position: relative;
     right: 35%;
     bottom: 3px;
     width: 150px;
+   
+}
+.btnGuess:hover {
+    background-color: #d4c26d !important; 
+    transform: scale(1.1); 
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* smooth transition */
 }
